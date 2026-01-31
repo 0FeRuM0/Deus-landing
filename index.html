@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Deus — Space & Geospatial Data Access</title>
+
+  <link rel="stylesheet" href="./assets/css/reset.css" />
+  <link rel="stylesheet" href="./assets/css/tokens.css" />
+  <link rel="stylesheet" href="./assets/css/main.css" />
+</head>
+<body>
+  <div class="bg-orbits" aria-hidden="true"></div>
+
+  <!-- Header -->
+  <header class="container header">
+    <div class="brand">
+      <div class="logo" aria-hidden="true"></div>
+      <div class="brand-text">
+        <div class="brand-title"><span class="deus-word">Deus</span></div>
+        <div class="brand-sub">Space Data Licensing • Analytics • Audit</div>
+      </div>
+    </div>
+
+    <!-- Desktop nav -->
+    <nav class="nav" aria-label="Primary">
+      <a class="nav-link" href="#about">О нас</a>
+      <a class="nav-link" href="#who">Кто мы</a>
+      <a class="nav-link" href="#value">Предложения</a>
+      <a class="nav-link" href="#pricing">Расценки</a>
+      <a class="nav-cta" href="#contact">Связаться</a>
+    </nav>
+
+    <!-- Mobile burger -->
+    <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobileMenu" type="button">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- Mobile menu overlay -->
+  <div class="menu-overlay" id="menuOverlay" hidden></div>
+
+  <nav class="mobile-menu" id="mobileMenu" aria-label="Mobile" hidden>
+    <a class="mobile-link" href="#about">О нас</a>
+    <a class="mobile-link" href="#who">Кто мы</a>
+    <a class="mobile-link" href="#value">Предложения</a>
+    <a class="mobile-link" href="#pricing">Расценки</a>
+    <a class="mobile-cta" href="#contact">Связаться</a>
+  </nav>
+
+  <main>
+    <!-- Block 1 -->
+    <section class="container section hero" id="about">
+      <div class="hero-inner">
+        <div class="hero-left">
+          <span class="badge">About</span>
+          <h1 class="hero-title">
+            Прозрачный доступ к <span class="accent">спутниковым данным</span>
+          </h1>
+          <p class="hero-text">
+            Мы разрабатываем технологические решения в сфере космических и геопространственных данных.
+            Наша цель — упростить доступ к спутниковой информации, сделать её использование прозрачным,
+            управляемым и юридически понятным.
+          </p>
+          <p class="hero-text muted">
+            Мы работаем на стыке космических технологий, данных и цифровых платформ, помогая организациям
+            быстрее получать ценность из спутниковых данных без сложных интеграций и непрозрачных лицензий.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn primary" href="#contact">Обсудить задачу</a>
+            <a class="btn ghost" href="#value">Что мы делаем</a>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="glass-card">
+            <div class="mini-k">Core idea</div>
+            <div class="mini-v">License → Access → Analytics → Audit</div>
+            <div class="divider"></div>
+
+            <div class="kpi-grid">
+              <div class="kpi">
+                <div class="kpi-top">Прозрачность</div>
+                <div class="kpi-sub muted">условий и прав</div>
+              </div>
+              <div class="kpi">
+                <div class="kpi-top">Управляемость</div>
+                <div class="kpi-sub muted">сроки и цели</div>
+              </div>
+              <div class="kpi">
+                <div class="kpi-top">Доверие</div>
+                <div class="kpi-sub muted">audit trail</div>
+              </div>
+              <div class="kpi">
+                <div class="kpi-top">Ценность</div>
+                <div class="kpi-sub muted">аналитика/ИИ</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Block 2 -->
+    <section class="container section" id="who">
+      <div class="section-head">
+        <h2>Кто мы и чем занимаемся</h2>
+        <span class="badge">Team</span>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3>Мы работаем с</h3>
+          <ul class="list">
+            <li>спутниковыми данными наблюдения Земли</li>
+            <li>геопространственной аналитикой</li>
+            <li>системами доступа, лицензирования и учёта использования данных</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Мы создаём сервисы, которые</h3>
+          <ul class="list">
+            <li>объединяют данные из разных источников</li>
+            <li>формализуют условия использования</li>
+            <li>обеспечивают прозрачность и доверие между поставщиками и пользователями</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Block 3 -->
+    <section class="container section" id="value">
+      <div class="section-head">
+        <h2>Преимущества и что мы предлагаем</h2>
+        <span class="badge">Value</span>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3>Ключевые преимущества</h3>
+          <ul class="list">
+            <li>прозрачные условия использования данных</li>
+            <li>гибкая работа с открытыми и коммерческими источниками</li>
+            <li>чёткая фиксация прав, сроков и целей использования</li>
+            <li>аудит и отслеживание операций с данными</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Что мы предлагаем</h3>
+          <ul class="list">
+            <li>доступ к спутниковым данным под конкретные задачи</li>
+            <li>аналитические продукты и отчёты</li>
+            <li>индивидуальные решения для бизнеса и государственных структур</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="flow">
+        <div class="flow-step">
+          <div class="flow-title">Запрос</div>
+          <div class="muted small">задача • регион • требования</div>
+        </div>
+        <div class="flow-step">
+          <div class="flow-title">Лицензия</div>
+          <div class="muted small">права • срок • цель</div>
+        </div>
+        <div class="flow-step">
+          <div class="flow-title">Доступ</div>
+          <div class="muted small">контролируемая выдача</div>
+        </div>
+        <div class="flow-step">
+          <div class="flow-title">Аналитика</div>
+          <div class="muted small">метрики • отчёты • ИИ</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Block 4 -->
+    <section class="container section" id="pricing">
+      <div class="section-head">
+        <h2>Расценки</h2>
+        <span class="badge">Pricing</span>
+      </div>
+
+      <div class="card">
+        <p class="text">
+          Мы не используем фиксированные тарифы. Стоимость формируется индивидуально и зависит от:
+        </p>
+
+        <ul class="list">
+          <li>типа и объёма данных</li>
+          <li>источников</li>
+          <li>целей использования</li>
+          <li>сроков и требований к аналитике</li>
+        </ul>
+
+        <p class="text muted">
+          Такой подход позволяет подобрать оптимальное решение под конкретную задачу клиента без переплаты
+          и лишних ограничений.
+        </p>
+      </div>
+    </section>
+
+    <!-- Block 5 -->
+    <section class="container section" id="contact">
+      <div class="section-head">
+        <h2>Контакты</h2>
+        <span class="badge">Contact</span>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <p class="text">
+            Свяжитесь с нами для обсуждения вашей задачи и подбора решения.
+          </p>
+
+          <div class="contact-lines">
+            <div><span class="muted">Email:</span> <a class="link" href="mailto:info@yourproject.com">info@yourproject.com</a></div>
+            <div><span class="muted">Telegram / WhatsApp:</span> по запросу</div>
+          </div>
+
+          <div class="divider"></div>
+
+          <div class="note muted small">
+            Форма справа — UI. Позже подключим отправку на email/CRM.
+          </div>
+        </div>
+
+        <form class="card form" id="contactForm">
+          <label class="field">
+            <span>Имя</span>
+            <input class="control" name="name" type="text" placeholder="Ваше имя" />
+          </label>
+
+          <label class="field">
+            <span>Контакт (email/телефон)</span>
+            <input class="control" name="contact" type="text" placeholder="email или номер" />
+          </label>
+
+          <label class="field">
+            <span>Сообщение</span>
+            <textarea class="control" name="message" rows="5" placeholder="Коротко опишите задачу"></textarea>
+          </label>
+
+          <button class="btn primary" type="submit">Отправить</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <div class="muted small">© <span id="year"></span> <span class="deus-word">Deus</span>. All rights reserved.</div>
+  </footer>
+
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>
